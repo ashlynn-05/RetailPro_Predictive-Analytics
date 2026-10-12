@@ -79,20 +79,16 @@ MLP performance varied widely: the strongest configurations kept errors near 3 t
 
 Python · pandas · NumPy · scikit-learn · TensorFlow / Keras · Matplotlib · Google Colab
 
-## Running the notebook
+## Notebook
 
-1. Open the notebook in [Google Colab](https://colab.research.google.com/) or a local Jupyter environment.
-2. Upload `Part1_sales_performance_data.csv` to the runtime (the notebook reads it from `/content/`).
-3. Install dependencies if running locally:
+The full analysis, with code, outputs and charts, is in **[`RetailPro_Sales_Prediction.ipynb`](RetailPro_Sales_Prediction.ipynb)**. GitHub renders it directly, so you can read through every step without running anything.
 
-   ```bash
-   pip install pandas numpy scikit-learn tensorflow matplotlib scipy
-   ```
-
-4. Run all cells in order.
-
-> [!IMPORTANT]
-> The dataset was provided through the unit and may not be redistributable. If it is not in this repository, the notebook needs a copy of the CSV with the same 21 columns.
+| Section | What's inside |
+|---|---|
+| 1. Executive Summary | Business problem, chosen model and headline results |
+| 2. Data Preprocessing | Encoding, train–validation split, imputation, scaling and correlation analysis |
+| 3. AI Model Development | The 4 linear regression and 20 MLP configurations |
+| 4. Experiments Report | Model comparison tables, evaluation of the chosen model, adoption, limitations and recommendations |
 
 ## Author
 
